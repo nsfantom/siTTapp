@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/first_name">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/llAvatars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:dividerPadding="5dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"/>
+
+    </LinearLayout>
+</layout>

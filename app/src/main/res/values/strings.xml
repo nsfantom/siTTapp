@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="error_first_name">{@string/first_name} field is empty</string>
+    <string name="error_last_name">{@string/last_name}  field is empty</string>
+    <string name="edit_title">%s.%s.</string>
+    <string name="save">SAVE</string>
+    <string name="contact_del">Contact removed</string>
+    <string name="cancel">Cancel</string>
+</resources>
