@@ -14,11 +14,11 @@ import tm.fantom.siapp.model.SiContact
 
 class ListAdapter(private val context: Context, fragment: Fragment) : RecyclerView.Adapter<ListAdapter.ContactViewHolder>() {
 
-    private val listener: onItemClickListener
+    private val listener: OnItemClickListener
     private val list: MutableList<SiContact> = ArrayList()
 
     init {
-        this.listener = fragment as onItemClickListener
+        this.listener = fragment as OnItemClickListener
     }
 
 
@@ -58,7 +58,7 @@ class ListAdapter(private val context: Context, fragment: Fragment) : RecyclerVi
 
     class ContactViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
-    interface onItemClickListener {
+    interface OnItemClickListener {
         fun itemDetail(idItem: Int)
         fun itemRemoved(contact: SiContact)
     }

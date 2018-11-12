@@ -27,7 +27,7 @@ import tm.fantom.siapp.utils.SwipeToDelete
 import javax.inject.Inject
 
 
-class ListFragment : Fragment(), ListContract.View, ListAdapter.onItemClickListener {
+class ListFragment : Fragment(), ListContract.View, ListAdapter.OnItemClickListener {
 
     @Inject
     lateinit var presenter: ListContract.Presenter
