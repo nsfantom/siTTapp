@@ -1,6 +1,6 @@
 package tm.fantom.siapp.ui.list;
 
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 
 public class SnackHelper {
 

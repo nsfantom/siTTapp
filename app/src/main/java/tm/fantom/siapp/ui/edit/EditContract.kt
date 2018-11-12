@@ -1,6 +1,6 @@
 package tm.fantom.siapp.ui.edit
 
-import android.support.annotation.DrawableRes
+import androidx.annotation.DrawableRes
 import tm.fantom.siapp.model.SiContact
 import tm.fantom.siapp.ui.base.BaseContract
 

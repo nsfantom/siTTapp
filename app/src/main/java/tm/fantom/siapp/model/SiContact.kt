@@ -1,6 +1,6 @@
 package tm.fantom.siapp.model
 
-import android.support.annotation.DrawableRes
+import androidx.annotation.DrawableRes
 
 /**
  * Class which provides a model for contact

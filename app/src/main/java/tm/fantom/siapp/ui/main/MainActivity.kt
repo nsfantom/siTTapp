@@ -1,7 +1,7 @@
 package tm.fantom.siapp.ui.main
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

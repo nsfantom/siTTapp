@@ -2,8 +2,8 @@ package tm.fantom.siapp.ui.edit
 
 import android.content.Context
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.widget.AppCompatImageView
+import androidx.fragment.app.Fragment
+import androidx.appcompat.widget.AppCompatImageView
 import android.view.*
 import android.widget.LinearLayout
 import kotlinx.android.synthetic.main.fragment_edit.*
